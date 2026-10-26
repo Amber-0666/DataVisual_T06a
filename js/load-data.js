@@ -11,14 +11,9 @@ d3.csv("data/Ex6_TVdata.csv", d => ({
     console.log(data);
 
     // T06-1 Step 4: Call functions after data is loaded
-<<<<<<< HEAD
     drawHistogram(data);
     populateFilters(data);
 
-=======
-    drawHistogram(data)
-    populateFilters(data)
->>>>>>> bbd6ebc411d84908e3907a73752436d3355105cc
     // T06-2 Step 1.3 Call the drawScatterplot
     drawScatterplot(data);
 
